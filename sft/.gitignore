@@ -1,0 +1,22 @@
+#pictures
+*.png
+
+#data files
+*.txt
+*.csv
+
+#log files
+*.err
+*.out
+
+#job files
+*.job
+
+#Something to do with torch .py files
+*.pyc
+
+#Checkpoints
+*.pt
+
+#tester
+tester.py
