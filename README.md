@@ -10,7 +10,9 @@ You can train the model yourself in any of these folders by going into the folde
 where you replace NAME with either sft, lora, reward_model, or reinforce.
 You then run the python file as: python train_NAME.py where NAME is either sft, lora, reward_model, or reinforce.
 
+I have included graphs of the loss functions from training the models, as well as logs of the trianing steps. They are to be found in the folder: outputs/graphs, outputs/logs
+
 The trained checkpoint that I received for the models is in the folder: checkpoints
-inside of each folder.
+inside of each folder. The checkpoint for the sft model were too large to upload them to Github.
 
 Note: When you train the model, it will download a model from hugging face that is several gigabites, which it uses as the base model. Just so you are aware of that.
